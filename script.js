@@ -64,4 +64,4 @@ console.log("Misol 19: 2345 * 980 = " + (2345 * 980) + " Sizning javobingiz " + 
 var task = prompt("Misolni yeching 456456 / 456 = ?")
 console.log("Misol 20: 456456 / 456 = " + (456456 / 456) + " Sizning javobingiz " + task);
 
-var result = alert("Natijani ko'rish uchun konsolni oching")
+alert("Natijani ko'rish uchun konsolni oching")
