@@ -48,3 +48,20 @@ if (name <= 18) {
 }else if(name >= 150) {
     alert("Nimadir noto'g'ri ketib qoldi")
 }
+
+alert("KEYINGI UY ISHI")
+
+var num = +prompt("Son kiriting, biz uni juft yoki toqligini bilib beramiz")
+while (isNaN(num)) {
+    var num= +prompt("Noto'g'ri kiritdingiz, sonni boshidan kiriting")
+}
+// do {
+//     var num = +prompt("Noto'g'ri kiritdingiz, sonni boshidan kiriting!")
+// } while (isNaN(num));
+if (num%2==0) {
+    alert("Sizning soningiz juft")
+}else{
+    alert("Sizning soningiz toq")
+}
+    
+alert("KEYINGI UY ISHI")
