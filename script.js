@@ -1,4 +1,7 @@
 var modal = prompt("Ismingizni kiriting")
+while (!isNaN(modal)) {
+    var modal = +prompt("Iltimos ismingizni kiriting!")
+}
 console.log("Mening ismim " + modal);
 
 var age = prompt("Yoshingizni kiriting")
@@ -65,3 +68,25 @@ if (num%2==0) {
 }
     
 alert("KEYINGI UY ISHI")
+
+var num1 = +prompt("Son kiriting")
+while (isNaN(num1)) {
+    var num1= +prompt("Noto'g'ri kiritdingiz, sonni boshidan kiriting")
+}
+var num2 = +prompt("Sonning darajasini kiriting")
+while (isNaN(num2)) {
+    var num2= +prompt("Noto'g'ri kiritdingiz, sonni boshidan kiriting")
+}
+alert("Javob; " +num1**num2)
+
+alert("KEYINGI UY ISHI")
+
+var num1 = +prompt("1-sonni kiriting")
+while (isNaN(num1)) {
+    var num1= +prompt("Noto'g'ri kiritdingiz, 1-sonni boshidan kiriting")
+}
+var num2 = +prompt("2-sonni kiriting")
+while (isNaN(num2)) {
+    var num2= +prompt("Noto'g'ri kiritdingiz, 2-sonni boshidan kiriting")
+}
+var num3 = +prompt("3-sonni kiriting")
