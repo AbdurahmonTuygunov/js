@@ -37,7 +37,7 @@ alert("Natijani ko'rish uchun konsolni oching")
 alert("KEYINGI UY ISHI")
 
 var name = prompt("Yoshingizni kiriting")
-while (isNaN(name)) {
+while (isNaN(name) || name == 0) {
     var name= +prompt("Nimadir noto'g'ri ketib qoldi")
 }if (name <= 18) {
     alert("Yoshsiz, oqishingiz kerak");
@@ -54,7 +54,7 @@ while (isNaN(name)) {
 alert("KEYINGI UY ISHI")
 
 var num = +prompt("Son kiriting, biz uni juft yoki toqligini bilib beramiz")
-while (isNaN(num)) {
+while (isNaN(num) || num == 0) {
     var num= +prompt("Noto'g'ri kiritdingiz, sonni boshidan kiriting")
 }
 // do {
@@ -69,11 +69,11 @@ if (num%2==0) {
 alert("KEYINGI UY ISHI")
 
 var num1 = +prompt("Son kiriting")
-while (isNaN(num1)) {
+while (isNaN(num1) || num1 == 0) {
     var num1= +prompt("Noto'g'ri kiritdingiz, sonni boshidan kiriting")
 }
 var num2 = +prompt("Sonning darajasini kiriting")
-while (isNaN(num2)) {
+while (isNaN(num2) || num2 == 0) {
     var num2= +prompt("Noto'g'ri kiritdingiz, sonni boshidan kiriting")
 }
 alert("Javob; " +num1**num2)
@@ -81,7 +81,7 @@ alert("Javob; " +num1**num2)
 alert("KEYINGI UY ISHI")
 
 //var num1 = +prompt("1-sonni kiriting")
-//while (isNaN(num1)) {
+//while (isNaN(num1) || num1 == 0) {
  //   var num1= +prompt("Noto'g'ri kiritdingiz, 1-sonni boshidan kiriting")
 //}
 //var num2 = +prompt("2-sonni kiriting")
