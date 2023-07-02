@@ -91,5 +91,5 @@ while (isNaN(num2)) {
 }
 var num3 = +prompt("3-sonni kiriting")
 while (isNaN(num3)) {
-    var num2= +prompt("Noto'g'ri kiritdingiz, 3-sonni boshidan kiriting")
+    var num3= +prompt("Noto'g'ri kiritdingiz, 3-sonni boshidan kiriting")
 }
