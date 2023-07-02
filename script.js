@@ -93,20 +93,20 @@ alert("KEYINGI UY ISHI")
   //  var num3= +prompt("Noto'g'ri kiritdingiz, 3-sonni boshidan kiriting")
 //}
 
-let num1 = +prompt("1 - sonni kiriting")
-let num2 = +prompt("2 - sonni kiriting")
-let num3 = +prompt("3 - sonni kiriting")
+let num4 = +prompt("1 - sonni kiriting")
+let num5 = +prompt("2 - sonni kiriting")
+let num6 = +prompt("3 - sonni kiriting")
 
-if( num1 > num2 && num1 < num3 || num1 < num2 && num3 < num1 ){
-  alert("O'rta qiymat " + num1)
+if( num4 > num5 && num4 < num6 || num4 < num5 && num6 < num4 ){
+  alert("O'rta qiymat " + num4)
   
-}else  if( num2 > num1 && num2 < num3 || num2 > num1 && num2 > num3 ) {
-  alert("O'rtacha qiymat " + num2)
+}else  if( num5 > num4 && num5 < num6 || num5 > num4 && num5 > num6 ) {
+  alert("O'rtacha qiymat " + num5)
   
-}else if( num3 > num2 && num2 > num1 || num3 > num2 && num2 > num1) {
+}else if( num6 > num5 && num5 > num4 || num6 > num5 && num5 > num4) {
 
-}else if (num2 > num3 && num3 > num1 || num1 > num3 && num3 > num2) {
-  alert("O'rtacha qiymat " + num3)
+}else if (num5 > num6 && num6 > num4 || num4 > num6 && num6 > num5) {
+  alert("O'rtacha qiymat " + num6)
 }
 else{
   alert("ERROR")
