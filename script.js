@@ -76,6 +76,10 @@ var num2 = +prompt("Sonning darajasini kiriting")
 while (isNaN(num2) || num2 == 0) {
     var num2= +prompt("Noto'g'ri kiritdingiz, sonni boshidan kiriting")
 }
+let box = 1
+for (let i = 0; i < num2; i++) {
+    box = box * num1
+}
 alert("Javob; " +num1**num2)
 
 alert("KEYINGI UY ISHI")
