@@ -37,10 +37,9 @@ alert("Natijani ko'rish uchun konsolni oching")
 alert("KEYINGI UY ISHI")
 
 var name = prompt("Yoshingizni kiriting")
-do {
-    var name = +prompt("Nimadir noto'g'ri ketib qoldi")
-} while (isNaN(name));
-if (name <= 18) {
+while (isNaN(name)) {
+    var name= +prompt("Nimadir noto'g'ri ketib qoldi")
+}if (name <= 18) {
     alert("Yoshsiz, oqishingiz kerak");
 }else if (name <= 50) {
     alert("Ishlashingiz kerak");
