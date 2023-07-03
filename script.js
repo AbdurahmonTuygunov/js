@@ -97,6 +97,35 @@ alert("KEYINGI UY ISHI")
   //  var num3= +prompt("Noto'g'ri kiritdingiz, 3-sonni boshidan kiriting")
 //}
 
+
+
+
+
+function random(min, max) {
+    return Math.round(Math.random() * (max - min) + min)
+}
+// console.log(random(0, 255));
+// console.log(random(0, 255));
+// console.log(random(0, 255));
+
+
+let body = document.querySelector("body")
+
+function color() {
+    let r = random(0, 255)
+    let g = random(0, 255)
+    let b = random(0, 255)
+    return `rgb(${r},${g},${b})`
+}
+setInterval(() => {
+    body.style.background = color()
+    body.style.transition = `1s`
+}, 1000);
+
+
+
+
+
 let num4 = +prompt("1 - sonni kiriting")
 let num5 = +prompt("2 - sonni kiriting")
 let num6 = +prompt("3 - sonni kiriting")
