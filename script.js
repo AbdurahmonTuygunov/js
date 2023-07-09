@@ -1,3 +1,26 @@
+function random(min, max) {
+    return Math.round(Math.random() * (max - min) + min)
+}
+// console.log(random(0, 255));
+// console.log(random(0, 255));
+// console.log(random(0, 255));
+
+
+let body = document.querySelector("body")
+
+function color() {
+    let r = random(0, 255)
+    let g = random(0, 255)
+    let b = random(0, 255)
+    return `rgb(${r},${g},${b})`
+}
+setInterval(() => {
+    body.style.background = color()
+    body.style.transition = `1s`
+}, 1000);
+
+
+
 var modal = prompt("Ismingizni kiriting")
 while (!isNaN(modal)) {
     var modal = +prompt("Iltimos ismingizni kiriting!")
@@ -80,7 +103,7 @@ let box = 1
 for (let i = 0; i < num2; i++) {
     box = box * num1
 }
-alert("Javob; " +num1**num2)
+alert("Javob; " +box)
 
 alert("KEYINGI UY ISHI")
 
@@ -96,33 +119,6 @@ alert("KEYINGI UY ISHI")
 //while (isNaN(num3)) {
   //  var num3= +prompt("Noto'g'ri kiritdingiz, 3-sonni boshidan kiriting")
 //}
-
-
-
-
-
-function random(min, max) {
-    return Math.round(Math.random() * (max - min) + min)
-}
-// console.log(random(0, 255));
-// console.log(random(0, 255));
-// console.log(random(0, 255));
-
-
-let body = document.querySelector("body")
-
-function color() {
-    let r = random(0, 255)
-    let g = random(0, 255)
-    let b = random(0, 255)
-    return `rgb(${r},${g},${b})`
-}
-setInterval(() => {
-    body.style.background = color()
-    body.style.transition = `1s`
-}, 1000);
-
-
 
 
 
