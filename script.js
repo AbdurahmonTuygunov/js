@@ -1,3 +1,38 @@
+let a = +prompt("Nechta misol ishlaysiz")
+
+for (let i = 0; i < a; i++) {
+    let n1 = random(20, 30),
+        n2 = random(10, 20),
+        sym = random(1, 5),
+        question,
+        answer
+    if (sym == 1) {
+        question = `${n1} + ${n2} = ?`
+        answer = n1 + n2
+    } else if (sym == 2) {
+        question = `${n1} - ${n2} = ?`
+        answer = n1 - n2
+    }
+    else if (sym == 3) {
+        question = `${n1} * ${n2} = ?`
+        answer = n1 * n2
+    } else if (sym == 4) {
+        question = `${n1} / ${n2} = ?`
+        answer = n1 / n2
+    } else if (sym == 5) {
+        question = `${n1} % ${n2} = ?`
+        answer = n1 % n2
+    }
+    let ex = +prompt(`${i + 1}-misol: ${question}`)
+    if (ex == answer) {
+        console.log(`Sizning javobingiz to'g'ri ${answer}`);
+    }
+    else {
+        console.log(`Sizning javobingiz no'to'g'ri ${ex} | To'g'ri javob: ${answer}`);
+    }
+}
+
+
 function random(min, max) {
     return Math.round(Math.random() * (max - min) + min)
 }
