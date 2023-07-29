@@ -1,4 +1,4 @@
-let a = +prompt("Nechta misol ishlaysiz")
+let a = +prompt("Yechmoqchi bo'lgan misollar miqdorini kiriting")
 
 for (let i = 0; i < a; i++) {
     let n1 = random(20, 100),
