@@ -1,8 +1,8 @@
 let a = +prompt("Nechta misol ishlaysiz")
 
 for (let i = 0; i < a; i++) {
-    let n1 = random(20, 30),
-        n2 = random(10, 20),
+    let n1 = random(20, 100),
+        n2 = random(10, 100),
         sym = random(1, 5),
         question,
         answer
