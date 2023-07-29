@@ -1,8 +1,8 @@
 let a = +prompt("Yechmoqchi bo'lgan misollar miqdorini kiriting")
 
 for (let i = 0; i < a; i++) {
-    let n1 = random(20, 100),
-        n2 = random(10, 100),
+    let n1 = random(20, 30),
+        n2 = random(10, 20),
         sym = random(1, 5),
         question,
         answer
