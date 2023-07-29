@@ -1,3 +1,21 @@
+let a = +prompt("boshlang'ich son kirit")
+let b = +prompt("oxirgi son kirit")
+let box = 0
+function summ(a, b) {
+    for (let i = a; i <= b; i++) {
+        if (i % 2 == 1) {
+            box += i
+        }
+    }
+    return box
+}
+console.log(summ(a, b));
+
+function random(min, max) {
+    return Math.round(Math.random() * (max - min) + min)
+}
+
+
 let a = +prompt("Yechmoqchi bo'lgan misollar miqdorini kiriting")
 
 for (let i = 0; i < a; i++) {
